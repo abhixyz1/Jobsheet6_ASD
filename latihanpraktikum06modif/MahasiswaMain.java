@@ -48,7 +48,7 @@ public class MahasiswaMain {
 
             System.out.println("_____________________________________");
             System.out.println("Pencarian Data dengan Binary Search");
-            int posisi = data.FindBinarySearch(cari, 0, jumMhs - 1);
+            int[] posisi = data.FindBinarySearch(cari, 0, jumMhs - 1);
             data.TampilPosisi(cari, posisi);
     }
 }
